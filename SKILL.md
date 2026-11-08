@@ -1,6 +1,6 @@
 ---
 name: vibeguard
-description: VibeGuard - keeps vibe-coded projects from collapsing under architecture debt. At project start it scaffolds three files every AI session reads - AGENTS.md (do and don't rules, imported from CLAUDE.md), GOALS.md (goal, scope, building blocks) and memory-bank/ (module map plus a change log the next session or another model can pick up). While coding it enforces a modular design with an independent core, one job per file split at 800 lines and never past 1000 (vibeguard.py check), small runnable building blocks instead of giant requests, running and testing every feature right away because compiling is not working, and fixing new design problems one by one instead of restarting. Use when starting or setting up a project, when a file or the main file grows large, when the user asks for a whole app or engine at once, after each change or fix, and when the user says vibeguard, vibe coding, proje kur, proje iskeleti, memory bank, dosya çok büyüdü, modüler yap.
+description: VibeGuard - keeps vibe-coded projects modular. Scaffolds AGENTS.md, GOALS.md and memory-bank/ at project start, splits files at 800 lines and never past 1000 (vibeguard.py check), builds in small runnable blocks and tests each feature right away. Use when starting or setting up a project, when a file or the main file grows large, when the user asks for a whole app or engine at once, after each change or fix, and when the user says vibeguard, vibe coding, proje kur, proje iskeleti, memory bank, dosya çok büyüdü, modüler yap.
 ---
 
 # VibeGuard
